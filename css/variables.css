@@ -1,0 +1,11 @@
+:root {
+    --brand-colors-pink: #F67ACB;
+    --brand-colors-100: #050110;
+    --brand-colors-200: #1C1D1F;
+    --brand-colors-300: #393C40;
+    --brand-colors-400: #5C6066;
+    --brand-colors-800: #F7F8FA;
+    --brand-colors-btn: #E6EBF2;
+    --brand-colors-text: rgba(255, 255, 255, 0.7);
+    --white: #FFFFFF;
+}

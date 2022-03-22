@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    min-height: 88px;
+    background-color: var(--brand-colors-800);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container .btn-logo {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.navbar .container .btn-logo .circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 100%;
+    background-color: var(--brand-colors-pink);
+}
+
+.navbar .container .nav-links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+}
+
+.navbar .container .nav-links li {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .container .nav-links li .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: var(--brand-colors-400);
+    background-color: var(--brand-colors-btn);
+}
+
+.navbar .container .nav-links li .btn-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Sora', sans-serif;
+}

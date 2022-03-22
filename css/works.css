@@ -1,0 +1,185 @@
+.works {
+    width: 100%;
+    min-height: 600px;
+    background-color: var(--brand-colors-100);
+    padding: 104px 0px 104px 0px;
+}
+
+.works .container .title {
+    color: var(--white);
+    margin-bottom: 4.8rem;
+    text-align: center;
+}
+
+.works .container .title h2 {
+    margin-bottom: 8px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+    letter-spacing: -1px;
+}
+
+.works .container .title span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.works .container .sections-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 3.2rem;
+    width: 100%;
+    margin-bottom: 122px;
+}
+
+.works .container .sections-grid .card {
+    width: 384px;
+    height: 382px;
+    background-color: #1c1d1f6e;
+    padding: 48px 80px 48px 80px;
+}
+
+.works .container .sections-grid .card:nth-child(2) {
+    width: 384px;
+    height: 382px;
+    background-color: var(--white);
+    opacity: 1;
+}
+
+.works .container .sections-grid .card .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4.8rem;
+}
+
+.works .container .sections-grid .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.works .container .sections-grid .card .card-body h3 {
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.0rem;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+    color: var(--white) !important;
+    opacity: 1 !important;
+}
+
+.works .container .sections-grid .card .card-body p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.works .container .sections-grid .card:nth-child(2) .card-body h3 {
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.0rem;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+    color: var(--brand-colors-100) !important;
+    opacity: 1 !important;
+}
+
+.works .container .sections-grid .card:nth-child(2) .card-body p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: var(--brand-colors-300);
+}
+
+.works .container .line {
+    width: 100%;
+    border: 1px solid var(--white);
+    opacity: 0.25;
+    margin-bottom: 104px;
+}
+
+.works .container .container-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5.6rem;
+}
+
+.works .container .container-photos .title-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.works .container .container-photos .title-grid h2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+    letter-spacing: -1px;
+    color: var(--white);
+}
+
+.works .container .container-photos .title-grid span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: rgba(255, 255, 255, 0.700);
+}
+
+.works .container .container-photos .btn-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208px;
+    color: var(--brand-colors-100);
+    background-color: var(--brand-colors-pink);
+    opacity: 1;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    letter-spacing: -1px;
+    padding: 20px 0px 20px 0px;
+}
+
+.works .container .grid-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 6;
+    column-gap: 3.2rem;
+    row-gap: 3.2rem;
+    width: 100%;
+}
+
+.works .container .grid-products .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    height: 112px;
+    background-color: var(--brand-colors-200);
+}

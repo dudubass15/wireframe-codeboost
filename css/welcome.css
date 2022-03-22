@@ -1,0 +1,59 @@
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    min-height: 640px;
+    padding: 46px 0px 46px 0px;
+}
+
+.welcome .col1 {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome .col1 h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 4.8rem;
+    line-height: 6.0rem;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.welcome .col1 p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--brand-colors-300);
+    line-height: 2.7rem;
+    margin-bottom: 56px;
+}
+
+.welcome .col1 .btn-lista-espera {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 305px;
+    min-height: 56px;
+}
+
+.welcome .col2 {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome .col2 .vendor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 488px;
+    height: 496px;
+    background-color: var(--brand-colors-800);
+}
