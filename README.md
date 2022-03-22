@@ -7,3 +7,5 @@ extraindo todos os assets do wireframe/prótotipo feito no Figma.
 Resultado final você pode ver no screeshot abaixo:
 
 ![Wireframe](./wireframe-codeboost.png)
+
+Obs.: Não foi feito a parte responsiva dessa página ainda.
